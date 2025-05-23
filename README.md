@@ -17,7 +17,7 @@ Click [here](https://docs.astral.sh/uv/getting-started/installation/) for other 
 To verify the installation, run `uv` and you should see a help menu listing available commands.
 
 > [!NOTE]
-> Upgrade or uninstall uv with homebrew.
+> Use homebrew to upgrade or uninstall uv.
 
 ## Managing Python Versions
 
@@ -379,7 +379,7 @@ uv uses aggressive caching to avoid re-downloading (and re-building) dependencie
 If you're running into issues you think is related to the cache, uv includes a few escape hatches:
 
 - To force uv to revalidate cached data for all dependencies, pass `--refresh` to any command (e.g. `uv sync --refresh`).
-- To force uv to revalidate cached data for a specific dependency pass `--refresh-package` to any command (e.g. `uv sync --refresh-package flask`).
+- To force uv to revalidate cached data for a specific dependency, pass `--refresh-package` to any command (e.g. `uv sync --refresh-package flask`).
 - To force uv to ignore existing installed versions, pass `--reinstall` to any installation command (e.g. `uv sync --reinstall`).
 
 You can also remove entries from the cache:
