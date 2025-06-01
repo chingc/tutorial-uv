@@ -433,6 +433,12 @@ Use `uv sync` to install dependencies and `--locked` to ensure the lockfile is u
 
 Check out this sample workflow: [basic_uv.yml](https://github.com/chingc/tutorial-github-actions/blob/main/.github/workflows/basic_uv.yml)
 
+### Dependabot
+
+The dependabot [package-ecosystem](https://docs.github.com/en/code-security/dependabot/working-with-dependabot/dependabot-options-reference#package-ecosystem-) has support for uv.
+
+Some use cases are not yet fully supported. See [astral-sh/uv#2512](https://github.com/astral-sh/uv/issues/2512) for updates.
+
 ## References
 
 - [uv](https://docs.astral.sh/uv/)
